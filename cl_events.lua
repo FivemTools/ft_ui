@@ -14,7 +14,7 @@ AddEventHandler('ft_ui:ClMessage', function(icon, type, sender, title, text)
 end)
 
 RegisterNetEvent('ft_ui:ClNotification')
-AddEventHandler('ft_ui:ClNotification', function(nmessage)
+AddEventHandler('ft_ui:ClNotification', function(message)
   Notification(message)
 end)
 
